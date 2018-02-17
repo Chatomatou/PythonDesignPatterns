@@ -28,10 +28,10 @@ class Leaf(Component):
         pass
 
 def main():
-    item = Leaf()
-    bag = Composite()
-    bag.add(item)
-    bag.operation()
+    unique_object = Leaf()
+    composite_object = Composite()
+    composite_object.add(unique_object)
+    composite_object.operation()
 
 if __name__ == "__main__":
     main()
