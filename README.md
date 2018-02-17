@@ -5,5 +5,6 @@ _Un patron de conception est un modèle permettant de résoudre un problème ré
 
 |NOM|DESCRIPTION|
 |---|---|
+|**Composite**|Permet de manipuler de la même manière une structure complète, une partie ou un élément unique|
 |**Prototype**|Définit une instance originale qui permet de créer de nouveaux objets en copiant le prototype original|
 |**Singleton**|Garantit qu'une classe n'a qu'une seule instance et fournit un point d'accès depuis cette dernière, en bloquant la création d'instance supplémentaires|
