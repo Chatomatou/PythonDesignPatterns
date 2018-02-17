@@ -6,6 +6,6 @@ _Un patron de conception est un modèle permettant de résoudre un problème ré
 |NOM|DESCRIPTION|EXEMPLE D'APPLICATION|
 |---|---|---|
 |**Composite**|Permet de manipuler de la même manière une structure complète, une partie ou un élément unique|Dans un jeu vidéo, un inventaire (sac) est un item, qui contient lui-même d'autres items. Le sac est donc géré comme un item (récursivité)|
-|**Façade**|Cache la conception de systèmes complexes, souvent difficiles à comprendre en les unifiant dans un système unique et accessible|Utilisation simplifiée d'un agenda (façade) utilisant plusieurs sous-systèmes pour sa gestion (date, prise de rendez-vous, etc.)|
+|**Façade**|Cache la conception de systèmes complexes, souvent difficiles à comprendre en les regroupant dans un système unique et accessible|Utilisation simplifiée d'un agenda (façade) utilisant plusieurs sous-systèmes pour sa gestion (date, prise de rendez-vous, etc.)|
 |**Prototype**|Définit une instance originale qui permet de créer de nouveaux objets en copiant le prototype original|Création facilitée et rendue plus rapide pour des entités similaires|
 |**Singleton**|Garantit qu'une classe n'a qu'une seule instance et fournit un point d'accès depuis cette dernière, en bloquant la création d'instance supplémentaires|Instance de connexion à une base de données, pour éviter de surcharger le serveur|
