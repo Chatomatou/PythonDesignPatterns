@@ -13,7 +13,7 @@ class Singleton(type):
 class SomeClass(metaclass=Singleton):
     pass
 
-#------------------------------------------------------------
+#-------------------------------------------------------------
 def main():
     sg1 = SomeClass()
     sg2 = SomeClass()
