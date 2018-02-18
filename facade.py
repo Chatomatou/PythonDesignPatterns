@@ -37,6 +37,7 @@ class SubClass3:
     def operation2(self):
         pass
 
+#----------------------------------------
 def main():
     facade = Facade()
     facade.operation()
