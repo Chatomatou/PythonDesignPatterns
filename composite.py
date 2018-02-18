@@ -27,6 +27,7 @@ class Leaf(Component):
     def operation(self):
         pass
 
+#---------------------------------------------
 def main():
     unique_object = Leaf()
     composite_object = Composite()
