@@ -21,6 +21,7 @@ class ConcreteState2(State):
     def handle(self):
         pass
 
+#-------------------------------------
 def main():
     cs1 = ConcreteState1()
     context = Context(cs1)
